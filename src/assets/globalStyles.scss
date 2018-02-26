@@ -1,0 +1,55 @@
+html{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fbfbfb;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(35, 163, 221, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(35, 163, 221, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(35, 163, 221, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(35, 163, 221, 0.4);
+    box-shadow: 0 0 0 0 rgba(35, 163, 221, 0.4);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(35, 163, 221, 0);
+    box-shadow: 0 0 0 10px rgba(35, 163, 221, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(35, 163, 221, 0);
+    box-shadow: 0 0 0 0 rgba(35, 163, 221, 0);
+  }
+}

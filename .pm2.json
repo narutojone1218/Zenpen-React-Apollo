@@ -1,0 +1,10 @@
+{
+  "name"             : "myzenpen-ssr",
+  "script"           : "/usr/bin/yarn",
+  "args"             : "ssr:production",
+  "instances"        : 4,
+  "autorestart"      : true,
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

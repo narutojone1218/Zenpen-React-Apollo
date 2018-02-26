@@ -1,0 +1,20 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "node": "current"
+      }
+    }],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    ["graphql-tag"],
+    ["styled-components", {
+      "ssr": false,
+      "displayName": true
+    }],
+    ["babel-plugin-transform-object-rest-spread"],
+    ["dynamic-import-node"],
+    ["react-loadable/babel"]
+  ]
+}
