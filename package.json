@@ -47,7 +47,7 @@
     "img-loader": "^2.0.0",
     "isomorphic-loader": "^1.6.4",
     "md5-file": "^3.2.3",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.13.1",
     "optimize-js-plugin": "^0.0.4",
     "sass-loader": "^6.0.6",
     "shebang-loader": "^0.0.1",
